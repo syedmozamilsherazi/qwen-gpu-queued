@@ -1,14 +1,3 @@
 {
-  "queue": [
-    {
-      "id": "4c209835-9c52-4a9b-a5e4-81c6bbba9bb6",
-      "messages": [
-        {
-          "role": "user",
-          "content": "Hello! Just say hi back."
-        }
-      ],
-      "max_tokens": 30
-    }
-  ]
+  "queue": []
 }
