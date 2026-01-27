@@ -1,3 +1,14 @@
 {
-  "queue": []
+  "queue": [
+    {
+      "id": "156b356d-cfb2-46ab-bd04-7e06f02e674c",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Say hello and tell me you are Qwen running on Kaggle GPU"
+        }
+      ],
+      "max_tokens": 50
+    }
+  ]
 }
