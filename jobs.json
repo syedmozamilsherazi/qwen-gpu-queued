@@ -1,14 +1,3 @@
 {
-  "queue": [
-    {
-      "id": "64191026-291b-48de-8da9-0c92f0544160",
-      "messages": [
-        {
-          "content": "You are a systematic literature review (SLR) screening assistant.\n\n\nDOMAIN: AI/ML/DL applications in ophthalmology and eye diseases.\n\nRELEVANT DISEASES:\n- Diabetic Retinopathy\n- Glaucoma\n- Cataract\n- Age-related Macular Degeneration (AMD)\n- Retinal disorders (retinopathy, retinal detachment, etc.)\n- Ophthalmic conditions (keratoconus, dry eye, etc.)\n- Any eye/vision-related diseases\n\nRELEVANT TASKS:\n- Diagnosis\n- Detection\n- Classification\n- Severity grading\n- Prediction\n- Segmentation\n- Screening\n\nRELEVANT METHODS:\n- Artificial Intelligence (AI)\n- Machine Learning (ML)\n- Deep Learning (DL)\n- Neural Networks (CNN, RNN, Transformers, etc.)\n- Computer Vision\n- Image Analysis\n\n\n================================================================================\nTASK: Evaluate the following paper TITLE for relevance.\n================================================================================\n\nTITLE: FunduScope: A Human-centered Tool for ML-assisted e-Learning in Ophthalmology\n\n================================================================================\nSELECTION RULES (BE INCLUSIVE - DO NOT MISS RELEVANT PAPERS):\n================================================================================\n\nOUTPUT: Title_Selected\nIF ANY of the following is TRUE:\n- Title mentions AI/ML/DL AND eye disease\n- Title mentions AI/ML/DL AND ophthalmology\n- Title mentions neural network/deep learning AND retina/fundus/OCT\n- Title is UNCLEAR but MIGHT be relevant to AI and eye diseases\n- Title mentions diagnostic/detection task for eye condition with computational method\n\nOUTPUT: Title_Deleted\nONLY IF the title is CLEARLY:\n- NOT related to AI/ML/DL at all (purely clinical/surgical)\n- NOT related to eye diseases (different medical domain)\n- About non-medical AI (robotics, NLP unrelated, etc.)\n\n================================================================================\nIMPORTANT: When in doubt, SELECT (Title_Selected).\nWe prefer false positives over missing relevant papers.\n================================================================================\n\nOUTPUT: Respond with EXACTLY one label only (no explanation):\nTitle_Selected\nOR\nTitle_Deleted\n\nYOUR RESPONSE:",
-          "role": "user"
-        }
-      ],
-      "max_tokens": 256
-    }
-  ]
+  "queue": []
 }
