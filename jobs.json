@@ -1,3 +1,14 @@
 {
-  "queue": []
+  "queue": [
+    {
+      "id": "e179092f-59cc-4aa0-8414-6b14242edbb7",
+      "messages": [
+        {
+          "content": "Respond with only: OK",
+          "role": "user"
+        }
+      ],
+      "max_tokens": 256
+    }
+  ]
 }
